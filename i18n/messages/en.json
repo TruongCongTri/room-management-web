@@ -1,0 +1,666 @@
+{
+  "meta": {
+    "title": "Atrium — Rooms for rent, priced in full",
+    "titleTemplate": "%s — Atrium",
+    "description": "Atrium is a six-floor residence for students and workers: dorm beds, singles, studios, lofts and two-bedroom flats, with fixed monthly fees and furniture to rent.",
+    "about": {
+      "title": "About us",
+      "description": "Atrium was started by two friends who had rented eleven rooms between them and never once known the real price."
+    },
+    "contact": {
+      "title": "Contact us",
+      "description": "Book a viewing, ask about a fee, or join a waitlist. The Atrium leasing team answers within one working day."
+    },
+    "rooms": {
+      "title": "Rooms & prices",
+      "description": "Five room types from a {from} dorm bed to a two-bedroom flat: furnished plans, where each room is in the building, fixed monthly fees and furniture to rent."
+    },
+    "notFound": {
+      "title": "404 — Room not found"
+    }
+  },
+
+  "ui": {
+    "language": {
+      "label": "Language",
+      "switchTo": "Đổi sang tiếng Việt",
+      "names": { "vi": "Tiếng Việt", "en": "English" }
+    },
+    "format": { "million": "{n}M₫", "decimal": "." },
+    "units": {
+      "room": "RM {id}",
+      "level": "Level {n}",
+      "per": { "bed": "bed", "room": "room" }
+    },
+    "errors": {
+      "offline": "Can't reach the server. Check your connection and try again.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "validation": {
+      "required": "Required",
+      "format": "Wrong format",
+      "email": "Please enter a valid email.",
+      "form": "Please check the highlighted fields."
+    },
+
+    "header": {
+      "home": "{brand} home",
+      "mainNav": "Main",
+      "menu": "Menu",
+      "close": "Close"
+    },
+    "footer": {
+      "address": "Address",
+      "directions": "Directions",
+      "leasingOffice": "Leasing office",
+      "generalInquiries": "General inquiries",
+      "social": "Social"
+    },
+    "subscribe": {
+      "success": "Thanks, you're on the list.",
+      "emailLabel": "Email address",
+      "placeholder": "Enter your email",
+      "submit": "Subscribe"
+    },
+    "preloader": {
+      "loading": "Loading {pct}%",
+      "skip": "[Skip — Esc]"
+    },
+    "drawings": {
+      "building": "Elevation drawing of Atrium, a six-floor residential building",
+      "plan": "Floor plan of a residential level",
+      "planRooms": ["RM 303 · Studio", "RM 304 · Studio", "Lounge", "RM 305", "RM 306", "RM 307", "RM 308 · Studio", "Kitchen"]
+    },
+
+    "hero": {
+      "discover": "Discover more",
+      "allFound": "All {n} free rooms found",
+      "hideHint": "Click a marker to hide it",
+      "dragHint": ["Click and drag your", "mouse to find free rooms"],
+      "tapHint": "[ Tap a marker to see the room ]"
+    },
+    "statement": { "cta": "See the rooms" },
+    "clients": {
+      "title": "Partners",
+      "prev": "Previous partners",
+      "next": "Next partners"
+    },
+    "problems": {
+      "label": "Problems",
+      "title": ["Renting a room", "shouldn't feel like a gamble"],
+      "body": "Listings show a photo and a rent. The size, the fees and how fast things get fixed only become clear once you've moved in, and by then you've signed."
+    },
+    "story": {
+      "aria": "Every room on the plan",
+      "panelTitle": ["Choose your room,", "see the full price,", "in one place"],
+      "panelBody": "Every room in Atrium is drawn to scale and priced in full. Rent and fixed fees are set before you visit, and furniture is yours to add or return month by month.",
+      "close": "Close",
+      "roomNo": "Room #{n}",
+      "issueHeading": "{title}, room {number}",
+      "priceExtras": "Price & extras",
+      "shortlist": "Shortlist",
+      "intro": "Introduction",
+      "scroll": "[Scroll to continue]",
+      "allShortlisted": "[All rooms shortlisted]"
+    },
+    "products": {
+      "aria": "Room types",
+      "rowText": "{first}. From {price} a month, {free} free right now.",
+      "perMonth": "/ {per} / mo",
+      "fixedFees": "+ {amount} fixed fees, all in",
+      "freeNow": "{n} free now",
+      "seeRoom": "See this room"
+    },
+    "whyUs": {
+      "label": "Why us",
+      "title": ["Built around", "the way you live"],
+      "body": "From the first look at the plan to the day you hand back your key, every step is clear and every price is written down. You choose the room, the lease and the furniture.",
+      "scroll": "[Scroll to continue]",
+      "callouts": {
+        "letCode": "RM 205 · Single",
+        "letText": "Let until March",
+        "freeCode": "RM 402 · Studio",
+        "freeText": "Free now, 4.8M₫",
+        "viewingCode": "RM 305 · Single",
+        "viewingText": "Viewing booked, Sat 10:00"
+      },
+      "viewing": {
+        "title": "Viewing",
+        "booking": "Booking #1042",
+        "room": "Single room, RM 305",
+        "when": "Saturday 10:00 with Linh at the front desk.",
+        "alsoTitle": "Also on this floor",
+        "also": "• RM 307, same size, free in December"
+      },
+      "documents": ["Lease agreement", "Room inventory", "Key & access card"],
+      "signing": "Signing…",
+      "monthTitle": "Your month",
+      "monthItems": ["• Fridge added, 150.000₫", "• Lock fixed in 6 hours", "• Moved to RM 402", "• …"]
+    },
+    "useCases": {
+      "label": "Who lives here",
+      "title": ["Made for the", "people who", "live here"]
+    },
+
+    "about": {
+      "aria": "About Atrium",
+      "storyAria": "Our story",
+      "storyLabel": "Our story",
+      "storyTitle": "Why Atrium?",
+      "mission": "Our mission:",
+      "teamAria": "Our team",
+      "teamLabel": "Our team",
+      "partnersAria": "Partners",
+      "partnersLabel": "Partners"
+    },
+    "contact": {
+      "aria": "Contact us",
+      "leasingOffice": "Leasing office",
+      "generalInquiries": "General inquiries",
+      "address": "Address"
+    },
+    "form": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "phone": "Phone number",
+      "message": "Message",
+      "interestLegend": "Room type you're interested in",
+      "sent": "Message sent",
+      "thanksTitle": "Thanks for reaching out!",
+      "thanksBody": "We've got your message, {name}. The leasing team will reply to {email} within one working day.",
+      "sending": "Sending…",
+      "submit": "Submit"
+    },
+
+    "roomsHero": {
+      "aria": "Rooms and prices",
+      "label": "Rooms & prices",
+      "title": ["A room for", "every budget,", "all under", "one roof"],
+      "body": "{types} room types across {floors} floors, each drawn to scale with its rent and every monthly fee written next to it. Add furniture only if you need it.",
+      "discover": "Discover more",
+      "stats": { "free": "Free now", "from": "From", "levels": "Levels", "hiddenFees": "Hidden fees" },
+      "liveAvailability": "{level} · live availability",
+      "allLevels": "All levels",
+      "freeThisWeek": "Free this week ({n})",
+      "viewAll": "View all",
+      "levelArea": "{level} · {area} m²",
+      "view": "View →"
+    },
+    "roomTypes": {
+      "aria": "Room types",
+      "bathroom": "Bathroom: {value}",
+      "perMonth": "/ {per} / month",
+      "yearlyPrice": "12-month lease: {price}",
+      "size": "Size",
+      "sleeps": "Sleeps",
+      "dormSleeps": "1 per bed, 4 per room",
+      "where": "Where",
+      "freeNow": "Free now",
+      "freeOfRooms": "{free} of {total} rooms",
+      "freeOfUnits": "{free} of {total} units",
+      "photosOf": "{name} photos",
+      "closeViewer": "Close photo view",
+      "prevPhoto": "Previous photo",
+      "nextPhoto": "Next photo",
+      "showPhoto": "Show photo {n}: {caption}",
+      "openPhoto": "Open photo {n}: {caption}",
+      "photos": "Photos",
+      "prevPhotos": "Previous photos",
+      "morePhotos": "More photos",
+      "view": "View ↗",
+      "unitPlan": "Unit plan · 1:50",
+      "typesLabel": "Room types",
+      "typesCount": "{types} types · {rooms} rooms",
+      "findIt": "Find it in the building",
+      "compare": "Compare prices"
+    },
+    "explorer": {
+      "aria": "Find a room in the building",
+      "label": "Where it is",
+      "title": ["Find your room", "on the floor, in the building"],
+      "body": "Scroll to walk through each room type, or pick a level and click any room. Every unit is shown where it really is, with its status today.",
+      "scroll": "[Scroll to continue]",
+      "status": { "available": "Available now", "reserved": "Reserved, viewing booked", "let": "Let" },
+      "legend": { "available": "Available", "reserved": "Reserved", "let": "Let", "selected": "Selected type" },
+      "filterAria": "Filter by room type",
+      "allRooms": "All rooms",
+      "pickLevel": "Pick a level",
+      "groundLobby": "G · Lobby",
+      "freeOnLevel": "{n} free on this level",
+      "roomAtLevel": "{room} · {level}",
+      "rentPer": "Rent / {per}",
+      "fixedFees": "Fixed fees",
+      "perMonth": "Per month",
+      "waitlist": "Join the waitlist",
+      "book": "Book a viewing"
+    },
+    "floorMap": {
+      "status": { "available": "Available", "reserved": "Reserved", "let": "Let" },
+      "stairLift": "STAIR · LIFT",
+      "corridor": "CORRIDOR — {floor}",
+      "roomAria": "Room {id}, {name}, {status}",
+      "planAria": "{floor} floor plan",
+      "stackAria": "Floors of the building"
+    },
+    "roomPlan": {
+      "aria": "Furnished floor plan, {w} by {d} metres",
+      "labels": {
+        "room": "Room",
+        "bath": "Bath",
+        "studio": "Studio",
+        "beds": "4 beds · 2 bunks",
+        "lockers": "Lockers",
+        "mezzanine": "Mezzanine above, +2.4 m",
+        "living": "Living",
+        "balcony": "Balcony",
+        "bedroom1": "Bedroom 1",
+        "bedroom2": "Bedroom 2",
+        "kitchen": "Kitchen"
+      }
+    },
+    "priceTable": {
+      "aria": "Prices",
+      "title": ["One rent, every fee", "on the table"],
+      "body": "Rent depends on the room type, never on the floor. Fixed fees are flat monthly amounts, so your bill is the same every month. Sign for 12 months and the rent drops by {pct}%.",
+      "leaseAria": "Lease length",
+      "monthly": "Monthly",
+      "yearly": "12-month lease (save {pct}%)",
+      "yearlyShort": "12-month lease",
+      "tableAria": "Room types compared",
+      "groups": { "room": "The room", "fees": "Fixed monthly fees", "furniture": "Furniture included", "lease": "Lease" },
+      "size": "Size",
+      "sleeps": "Sleeps",
+      "dormSleeps": "1 (4 per room)",
+      "levels": "Levels",
+      "deposit": "Deposit",
+      "depositOne": "{n} month rent",
+      "depositMany": "{n} months rent",
+      "shortestStay": "Shortest stay",
+      "included": "Included",
+      "notIncluded": "Not included",
+      "perMonth": "/ {per} / mo",
+      "book": "Book a viewing"
+    },
+    "calculator": {
+      "aria": "Fees and monthly estimate",
+      "label": "Fees",
+      "title": ["Fixed fees,", "flexible furniture"],
+      "body": "Five fees are fixed every month, whatever you use. Everything else is optional: rent a fridge, a wardrobe or a washing machine by the month, and hand it back when you don't need it.",
+      "roomType": "Room type",
+      "estimateFor": "Estimate for",
+      "monthlyLease": "Monthly lease",
+      "yearlyLease": "12-month lease",
+      "lease": "Lease",
+      "leaseHint": "12 months saves {pct}% on rent",
+      "leaseAria": "Lease length",
+      "monthly": "Monthly",
+      "twelveMonths": "12 months",
+      "people": "People",
+      "upTo": "Up to {n}",
+      "waterPerPerson": "Water is per person",
+      "motorbikes": "Motorbikes",
+      "parkingHint": "Parking per vehicle",
+      "fewer": "Fewer: {label}",
+      "more": "More: {label}",
+      "fixed": "Fixed every month",
+      "flexible": "Flexible add-ons",
+      "included": "Included",
+      "perMonth": "{price} / mo",
+      "rentLine": "{name} rent",
+      "youPay": "You pay each month",
+      "depositOne": "Deposit ({n} month rent)",
+      "depositMany": "Deposit ({n} months rent)",
+      "due": "Due at move-in",
+      "book": "Book a viewing",
+      "depositNote": "Deposit is returned in full within 7 days of moving out, less any damage noted against the move-in inventory."
+    },
+    "steps": {
+      "aria": "How renting works",
+      "title": "From first look to move-in, in {n} steps",
+      "body": "No agents, no viewing fees, no paperwork you can't read. Most residents move in within a week of first seeing the plan.",
+      "selected": "{room} selected",
+      "viewing": "Viewing Sat 10:00",
+      "step": "Step"
+    },
+    "faq": {
+      "aria": "Frequently asked questions",
+      "label": "FAQs",
+      "title": ["Got questions?", "We've got", "answers"]
+    },
+    "notFound": {
+      "label": "Error / 404",
+      "signal": "● Signal lost",
+      "notInRegistry": "is not in our registry.",
+      "back": "Back to lobby",
+      "allRooms": "See all rooms"
+    }
+  },
+
+  "content": {
+    "site": {
+      "brand": {
+        "tagline": "Rooms for rent, priced in full",
+        "address": ["12 Example Street, Ward 6", "District 3, Ho Chi Minh City"]
+      },
+      "nav": { "rooms": "Rooms", "pricing": "Prices & fees", "about": "About" },
+      "contactCta": "Contact us",
+      "footer": {
+        "tagline": ["Rooms for rent,", "priced in full,", "ready to live in"],
+        "columns": {
+          "company": "Company",
+          "rooms": "Rooms",
+          "help": "Help"
+        },
+        "links": {
+          "home": "Home",
+          "about": "About us",
+          "contact": "Contact us",
+          "pricing": "Prices & fees",
+          "explorer": "Find a room",
+          "fees": "Fee calculator",
+          "faq": "FAQs",
+          "viewing": "Book a viewing"
+        },
+        "subscribe": { "title": "Subscribe", "text": "One email when rooms open up. Nothing else." },
+        "legal": ["Privacy policy", "Terms & conditions", "Cookie policy"],
+        "copyright": "©2026 Atrium. All rights reserved."
+      },
+      "cta": {
+        "title": ["Come and see", "your room in person"],
+        "body": "Book a viewing and we'll walk you through the room, the floor and the full monthly price.",
+        "button": "Book a viewing"
+      },
+      "preloader": {
+        "log": [
+          "Raise six floors",
+          "Draw 48 rooms to scale",
+          "Furnish dorms and singles",
+          "Fit studio kitchenettes",
+          "Hang the loft mezzanines",
+          "Price five room tiers",
+          "Fix monthly fees",
+          "Stock the furniture store",
+          "Check room availability",
+          "Open the doors"
+        ],
+        "meta": [
+          ["Type", "Residential rental building"],
+          ["Opened", "2026"],
+          ["Focus", "Rooms for students and workers, from dorm beds to two-bedroom flats"],
+          ["Location", "District 3, Ho Chi Minh City"]
+        ],
+        "welcome": "Welcome to Atrium",
+        "statement": ["Rooms for rent,", "drawn to scale,", "priced in full,", "ready to live in"]
+      },
+      "notFound": {
+        "title": ["Room", "not found"],
+        "text": "This room was let, renumbered, or never built in the first place. The route",
+        "log": [
+          ["001", "Lookup route in room registry", "OK"],
+          ["002", "Scan levels 1 → 6", "OK"],
+          ["003", "Match requested space", "FAIL"],
+          ["004", "Suggest nearest available room", "OK"]
+        ]
+      }
+    },
+
+    "home": {
+      "hero": {
+        "title": ["Rooms for rent that", "fit the way you live"],
+        "body": "Atrium is a six-floor residence for students and workers. Dorm beds from {from} a month up to two-bedroom flats, with every fee fixed and listed before you sign.",
+        "ticker": ["Rooms from {from}", "Fixed monthly fees", "Furniture on demand", "24/7 security desk", "10 min to campus"]
+      },
+      "hotspots": {
+        "h1": { "code": "RM 302 · Single", "text": "Free from 1 Nov, 3.2M₫ a month" },
+        "h2": { "code": "RM 402 · Studio", "text": "Fridge included, two left" },
+        "h3": { "code": "RM 103 · Dorm", "text": "One bed left, 1.6M₫" }
+      },
+      "statement": "Renting a room shouldn't mean surprise fees, vague contracts and a landlord who never picks up. Atrium puts every price on the table, fixes things fast, and lets you rent a fridge or a wardrobe only when you need one.",
+      "partnersNote": "Students and staff of our partner universities and employers get the first month's service fee free.",
+      "problems": [
+        { "key": "Hidden", "title": ["Fees show up", "after you've", "signed"], "text": "Water by the person, power at a markup, a parking charge nobody mentioned. The rent was never the real price." },
+        { "key": "Misleading", "title": ["The room isn't", "the one in", "the photos"], "text": "Wide-angle pictures, no floor plan, no measurements. You find out how small it is on moving day." },
+        { "key": "Slow", "title": ["Repairs wait", "for weeks", "on end"], "text": "A broken lock or a dead air conditioner becomes a chain of unanswered messages." },
+        { "key": "Rigid", "title": ["You pay for", "furniture you", "never use"], "text": "Furnished means whatever was left behind, priced into the rent whether you want it or not." }
+      ],
+      "storyPhrases": ["Every room on the plan", "Every price on the table"],
+      "storySteps": [
+        "Most listings show you a photo and a number. You only learn the size, the noise and the real monthly cost once you've moved in.",
+        "We drew every room in the building to scale, and fixed every fee before you see the rent.",
+        "Pick a room on the plan to see its size, what's included and what you'll pay each month.",
+        "[Click on a room]"
+      ],
+      "planIssues": {
+        "i1": {
+          "title": "Studio",
+          "room": "RM 303",
+          "text": "20 m² with a double bed, kitchenette and its own bathroom. Free from 1 November.",
+          "fix": ["Rent 4.800.000₫ a month", "Fixed fees 800.000₫ a month", "Fridge included"]
+        },
+        "i2": {
+          "title": "Studio",
+          "room": "RM 308",
+          "text": "Faces the courtyard, so it's the quietest studio on the floor. Two doors from the stair.",
+          "fix": ["Rent 4.800.000₫ a month", "Add a washing machine for 200.000₫", "12-month lease saves 10%"]
+        },
+        "i3": {
+          "title": "Single room",
+          "room": "RM 305",
+          "text": "12 m² with a private shower room and a wide desk under the window.",
+          "fix": ["Rent 3.200.000₫ a month", "Shared kitchen two doors down", "Wardrobe from 80.000₫"]
+        }
+      },
+      "agentPoints": [
+        "Rent, water, power and Wi-Fi on one bill.",
+        "Every room measured and drawn to scale.",
+        "Rent a fridge or wardrobe any month.",
+        "Repairs answered within 48 hours."
+      ],
+      "whySteps": [
+        { "key": "Browse", "text": "See every room on the plan, with its size and full monthly price" },
+        { "key": "Visit", "text": "Book a viewing and walk the floor before you decide" },
+        { "key": "Move in", "text": "Sign one clear contract and pick up your key the same day" },
+        { "key": "Live", "text": "Add furniture, report a repair, or switch rooms as life changes" }
+      ],
+      "useCases": [
+        { "title": "Students", "text": "A dorm bed or single room ten minutes from campus, with a desk and fast Wi-Fi in every room." },
+        { "title": "Young professionals", "text": "A studio with its own kitchen, so you can cook after work and still save each month." },
+        { "title": "Shift workers", "text": "Quiet, blackout-curtained rooms and a security desk that's staffed all night." },
+        { "title": "Interns & trainees", "text": "Leases from three months, so a placement doesn't tie you into a year." },
+        { "title": "Couples", "text": "Studios and lofts that sleep two, with one bill for the both of you." },
+        { "title": "Friends sharing", "text": "Two-bedroom flats with lockable rooms and a shared kitchen and living room." },
+        { "title": "Remote workers", "text": "Top-floor lofts with space for a real desk, plus a co-working corner downstairs." },
+        { "title": "New to the city", "text": "Move in with one suitcase; rent the rest of what you need month by month." }
+      ]
+    },
+
+    "rooms": {
+      "labels": { "level": "Level {n}", "levels": "Levels {from}–{to}" },
+      "featureLabels": {
+        "furnished": "Bed, desk & chair",
+        "aircon": "Air conditioning",
+        "window": "Outside window",
+        "bath": "Private bathroom",
+        "kitchen": "Kitchenette",
+        "balcony": "Balcony",
+        "mezzanine": "Sleeping mezzanine"
+      },
+      "tiers": {
+        "dorm": {
+          "name": "Dorm bed",
+          "short": "Dorm",
+          "audience": "Students",
+          "summary": "A bunk in a four-bed room, with your own locker and desk.",
+          "text": "The lowest rent in the building. Four residents share a bright room with two bunks, an ensuite bathroom and a desk each. Lockable storage and a reading light are yours alone.",
+          "floors": "Levels 1–2",
+          "minStay": "3 months",
+          "bath": "Ensuite, shared by 4"
+        },
+        "single": {
+          "name": "Single room",
+          "short": "Single",
+          "audience": "Students, interns",
+          "summary": "A private room for one, with a shower room of its own.",
+          "text": "Your own door, your own key. A compact 12 m² room with a single bed, a wide desk under the window and a private shower room. The shared kitchen is two doors down.",
+          "floors": "Levels 1–6",
+          "minStay": "3 months"
+        },
+        "studio": {
+          "name": "Studio",
+          "short": "Studio",
+          "audience": "Young professionals",
+          "summary": "A room, kitchenette and bathroom: everything on one key.",
+          "text": "Room to live, not just sleep. A 20 m² studio with a double bed, a kitchenette with a two-ring hob, a fridge, and a bathroom. Fits one comfortably or two who like each other.",
+          "floors": "Levels 3–5",
+          "minStay": "6 months"
+        },
+        "loft": {
+          "name": "Loft studio",
+          "short": "Loft",
+          "audience": "Remote workers",
+          "summary": "A double-height studio with the bed up on a mezzanine.",
+          "text": "Top-floor ceilings, 4.6 m high. The bed sits on a mezzanine, which frees the whole floor below for a desk, a sofa and a proper kitchen. Each loft has a small balcony.",
+          "floors": "Level 6",
+          "minStay": "6 months"
+        },
+        "twobed": {
+          "name": "Two-bedroom",
+          "short": "2-Bed",
+          "audience": "Friends, couples",
+          "summary": "Two bedrooms around a shared living room and kitchen.",
+          "text": "Two lockable bedrooms off a shared living room with a full kitchen, a bathroom and a balcony. Rent it with a friend and pay less each than two studios.",
+          "floors": "Levels 5–6",
+          "minStay": "6 months"
+        }
+      },
+      "photos": {
+        "dorm": [
+          { "caption": "Bunks by the window", "alt": "a room filled with lots of bunk beds next to a window" },
+          { "caption": "Your bunk", "alt": "black metal bunk bed" },
+          { "caption": "Study corner", "alt": "Desk with globe, plant, and two stools" },
+          { "caption": "Wood bunk tower", "alt": "brown wooden bunk beds" },
+          { "caption": "Twin beds by the window", "alt": "white and gray floral bed linen" },
+          { "caption": "Bunk with a privacy shutter", "alt": "white mattress" },
+          { "caption": "Shared desks", "alt": "empty chair" },
+          { "caption": "Study table", "alt": "A cluttered room with a desk, chairs, and luggage" },
+          { "caption": "Desk and bed", "alt": "white wooden desk near bed inside the room" },
+          { "caption": "Desk by the window", "alt": "brown wooden chair near mattress" }
+        ],
+        "single": [
+          { "caption": "Single bed and desk", "alt": "white bed pillow on bed" },
+          { "caption": "Desk under the window", "alt": "Modern bedroom with desk, bed, and city view" },
+          { "caption": "Private shower room", "alt": "A bathroom with a toilet, sink, and shower" },
+          { "caption": "Bed under the window", "alt": "Cozy modern bedroom with single bed, window, and blue decor" },
+          { "caption": "Reading corner", "alt": "Cozy bedroom with a single bed and window view" },
+          { "caption": "Built-in wardrobe", "alt": "Modern bedroom featuring a bed, white wardrobe, and window" },
+          { "caption": "Desk and shelves", "alt": "Bright room with a desk, pink chair, and window blinds" },
+          { "caption": "Attic single", "alt": "Attic bedroom with a bed and window" },
+          { "caption": "Work desk", "alt": "Modern bedroom with a desk and city view" },
+          { "caption": "Desk and bed", "alt": "A bright bedroom with a desk and a large bed" }
+        ],
+        "studio": [
+          { "caption": "Bed, table and kitchenette", "alt": "a room with a bed and a table with a bowl on it" },
+          { "caption": "Kitchenette with fridge", "alt": "A small kitchenette with light green cabinets and a bed in a studio apartment" },
+          { "caption": "Bathroom", "alt": "A bathroom with a toilet, sink, and shower" },
+          { "caption": "Kitchenette and table", "alt": "a room with a table, chairs and a television" },
+          { "caption": "French windows", "alt": "a hotel room with a large bed and a window" },
+          { "caption": "Kitchenette by the bed", "alt": "a kitchen with a table and chairs in it" },
+          { "caption": "Window bed", "alt": "white bed linen on bed" },
+          { "caption": "Balcony view", "alt": "Modern kitchen and dining area with water view" },
+          { "caption": "Sitting area", "alt": "Modern living space with large window overlooking nature" },
+          { "caption": "Hob and washing machine", "alt": "Modern kitchen with sink, stove, and washing machine" }
+        ],
+        "loft": [
+          { "caption": "Living floor, mezzanine above", "alt": "People working in a spacious loft with a large table" },
+          { "caption": "Kitchen and dining", "alt": "Modern open-plan loft apartment with dining area and kitchen" },
+          { "caption": "Lounge", "alt": "Modern living room with green sofa and brick wall" },
+          { "caption": "Loft living", "alt": "A spacious industrial loft with a black leather sofa, dining area, and mezzanine level" },
+          { "caption": "Dining under the beams", "alt": "brown wooden table with chairs" },
+          { "caption": "Stair to the mezzanine", "alt": "Modern staircase with metal railings and steps" },
+          { "caption": "Mezzanine bed", "alt": "A bed sitting in a bedroom next to a closet" },
+          { "caption": "Plants and city light", "alt": "a living room filled with furniture and lots of windows" },
+          { "caption": "Lounge", "alt": "white and black sectional couch" },
+          { "caption": "Shared atrium", "alt": "a large plant in a large room with lots of windows" }
+        ],
+        "twobed": [
+          { "caption": "Shared living room", "alt": "Modern, stylish living room with open concept kitchen" },
+          { "caption": "Kitchen with washing machine", "alt": "Modern kitchen with stainless steel refrigerator and washing machine" },
+          { "caption": "Bedroom", "alt": "Modern bedroom with a bed, desk, and mirrors" },
+          { "caption": "Living room and balcony", "alt": "white and brown living room set" },
+          { "caption": "Reading chair", "alt": "white and gray sofa chair near white wall" },
+          { "caption": "Lounge", "alt": "brown wooden round table near white sofa" },
+          { "caption": "Second bedroom", "alt": "white bed pillow on brown wooden bed frame" },
+          { "caption": "Kitchen with washing machine", "alt": "white front load washing machine" },
+          { "caption": "Bathroom", "alt": "rectangular brown and white sink" },
+          { "caption": "Study corner", "alt": "A sunlit home office with a desk, computer, and sofa in a living room" }
+        ]
+      },
+      "fixedFees": {
+        "water": { "name": "Water", "unit": "/ person", "note": "Hot and cold, no cap." },
+        "power": { "name": "Electricity", "unit": "/ month", "note": "Flat rate sized to the room, air conditioning included." },
+        "wifi": { "name": "Wi-Fi", "unit": "/ month", "note": "300 Mbps fibre, a router in every room." },
+        "service": { "name": "Service & cleaning", "unit": "/ month", "note": "Common areas, rubbish, 24/7 security desk." },
+        "parking": { "name": "Motorbike parking", "unit": "/ vehicle", "note": "Covered, camera-watched, charged only if you bring one." }
+      },
+      "addons": {
+        "fridge": { "name": "Fridge", "note": "120 L, freezer drawer" },
+        "wardrobe": { "name": "Wardrobe", "note": "Two-door, with mirror" },
+        "washer": { "name": "Washing machine", "note": "7 kg, in-room" },
+        "microwave": { "name": "Microwave", "note": "20 L, grill" },
+        "desk": { "name": "Second desk & chair", "note": "For sharers" },
+        "purifier": { "name": "Air purifier", "note": "HEPA filter, quiet mode" },
+        "tv": { "name": "Smart TV", "note": "43\", streaming apps" },
+        "mattress": { "name": "Topper mattress", "note": "Memory foam" }
+      },
+      "ground": { "name": "Ground", "text": "Lobby & 24/7 desk · Parking · Laundry · Café" },
+      "steps": [
+        { "title": "Choose", "subtitle": "a room on the plan", "text": "Compare the five room types, check where each one is, and see the full monthly price before you visit." },
+        { "title": "Visit", "subtitle": "with the leasing team", "text": "Book a 20-minute viewing. Walk the floor, open the windows, and ask anything about the contract." },
+        { "title": "Move in", "subtitle": "the same day", "text": "Sign one plain-language lease, pay the deposit and first month, and take your key home." }
+      ],
+      "faqs": [
+        { "q": "Are the fixed fees really fixed?", "a": "Yes. Water, electricity, Wi-Fi, service and parking are flat monthly amounts set by your room type. They don't change with usage, and they can only go up once a year with 60 days' notice." },
+        { "q": "What does a viewing cost?", "a": "Nothing. Viewings are free, take about 20 minutes, and you can book one for any free or reserved room." },
+        { "q": "Can I rent furniture later, or return it?", "a": "Any time. Add a fridge, wardrobe or washing machine from the front desk or the resident app, and it's in your room the same day. Return it with a week's notice and it comes off your next bill." },
+        { "q": "Can I move to a different room?", "a": "Yes. Switching rooms inside Atrium is free; your lease carries over and your deposit moves with you. You pay the new room's rent from the day you move." },
+        { "q": "Who can rent at Atrium?", "a": "Anyone over 18 with ID. Most residents are students and people in their first jobs. Students and staff at our partner universities and employers get their first month's service fee free." },
+        { "q": "What happens to my deposit?", "a": "It's returned in full within 7 days of moving out, minus the cost of any damage that wasn't on your move-in inventory." }
+      ]
+    },
+
+    "about": {
+      "left": "Tired of hidden fees?",
+      "right": "We built the fix",
+      "title": ["We're renters building", "the home we always", "wanted to rent"],
+      "body": "Atrium takes the guesswork out of renting a room: every room drawn to scale, every fee fixed before you sign, and furniture you rent only when you need it. Built by people who were tired of finding out the real price on moving day.",
+      "storyLead": "An atrium is the open court at the heart of a building: the space everyone passes through, where the light comes in. That's how we wanted to run ours. Nothing hidden in a back office, every price out in the open, and a front desk that actually answers.",
+      "story": "Atrium was started by two friends who had rented eleven rooms between them and never once known the real monthly cost before moving in. Fees appeared after signing, photos flattered the rooms, and repairs waited for weeks. So in 2024 they bought an empty office block in District 3 and rebuilt it as the place they wished they'd rented.",
+      "mission": [
+        "Put every room on the plan, drawn to scale",
+        "List every fee before anyone signs",
+        "Fix what breaks within 48 hours",
+        "Let residents rent only the furniture they need"
+      ],
+      "teamTitle": ["Built by renters,", "run by neighbours"],
+      "teamBody": "We're a small team with backgrounds in architecture, property management and hospitality. What unites us: we've all been tenants, and we think renting a room should feel as clear as booking a hotel.",
+      "teamRoles": [
+        "Co-founder & operations",
+        "Co-founder & building",
+        "Resident experience",
+        "Head of maintenance",
+        "Leasing lead",
+        "Front desk, nights"
+      ],
+      "partnersTitle": ["Universities &", "partners near", "Atrium"],
+      "partnersLabel": "Residents get perks with:"
+    },
+
+    "contact": {
+      "title": "Get in touch",
+      "body": ["Want to see a room, ask about a fee, or join a waitlist?", "Write to us and the leasing team will answer within one working day."],
+      "formTitle": "Please fill out this form",
+      "interestLabel": "Interested in (optional)"
+    }
+  }
+}

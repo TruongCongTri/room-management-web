@@ -1,0 +1,666 @@
+{
+  "meta": {
+    "title": "Atrium — Phòng cho thuê, giá trọn gói",
+    "titleTemplate": "%s — Atrium",
+    "description": "Atrium là tòa nhà sáu tầng dành cho sinh viên và người đi làm: giường ký túc xá, phòng đơn, studio, loft và căn hai phòng ngủ, phí hằng tháng cố định và nội thất cho thuê theo tháng.",
+    "about": {
+      "title": "Về chúng tôi",
+      "description": "Atrium do hai người bạn sáng lập: họ đã cùng thuê mười một căn phòng mà chưa lần nào biết trước giá thật."
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "description": "Đặt lịch xem phòng, hỏi về chi phí hoặc đăng ký chờ phòng. Đội ngũ cho thuê của Atrium phản hồi trong một ngày làm việc."
+    },
+    "rooms": {
+      "title": "Phòng & bảng giá",
+      "description": "Năm loại phòng, từ giường ký túc xá {from} đến căn hai phòng ngủ: bản vẽ có nội thất, vị trí từng phòng trong tòa nhà, phí cố định hằng tháng và nội thất cho thuê."
+    },
+    "notFound": {
+      "title": "404 — Không tìm thấy phòng"
+    }
+  },
+
+  "ui": {
+    "language": {
+      "label": "Ngôn ngữ",
+      "switchTo": "Switch to English",
+      "names": { "vi": "Tiếng Việt", "en": "English" }
+    },
+    "format": { "million": "{n} triệu", "decimal": "," },
+    "units": {
+      "room": "P.{id}",
+      "level": "Tầng {n}",
+      "per": { "bed": "giường", "room": "phòng" }
+    },
+    "errors": {
+      "offline": "Không kết nối được máy chủ. Vui lòng kiểm tra mạng và thử lại.",
+      "generic": "Đã có lỗi xảy ra. Vui lòng thử lại."
+    },
+    "validation": {
+      "required": "Bắt buộc",
+      "format": "Sai định dạng",
+      "email": "Vui lòng nhập email hợp lệ.",
+      "form": "Vui lòng kiểm tra các ô được đánh dấu."
+    },
+
+    "header": {
+      "home": "Trang chủ {brand}",
+      "mainNav": "Điều hướng chính",
+      "menu": "Menu",
+      "close": "Đóng"
+    },
+    "footer": {
+      "address": "Địa chỉ",
+      "directions": "Chỉ đường",
+      "leasingOffice": "Văn phòng cho thuê",
+      "generalInquiries": "Thông tin chung",
+      "social": "Mạng xã hội"
+    },
+    "subscribe": {
+      "success": "Cảm ơn bạn, bạn đã có tên trong danh sách.",
+      "emailLabel": "Địa chỉ email",
+      "placeholder": "Nhập email của bạn",
+      "submit": "Đăng ký"
+    },
+    "preloader": {
+      "loading": "Đang tải {pct}%",
+      "skip": "[Bỏ qua — Esc]"
+    },
+    "drawings": {
+      "building": "Bản vẽ mặt đứng tòa nhà Atrium, tòa nhà ở sáu tầng",
+      "plan": "Mặt bằng một tầng nhà ở",
+      "planRooms": ["P.303 · Studio", "P.304 · Studio", "Phòng khách", "P.305", "P.306", "P.307", "P.308 · Studio", "Bếp"]
+    },
+
+    "hero": {
+      "discover": "Khám phá thêm",
+      "allFound": "Đã tìm thấy cả {n} phòng trống",
+      "hideHint": "Nhấn vào điểm đánh dấu để ẩn",
+      "dragHint": ["Nhấn và kéo chuột", "để tìm phòng trống"],
+      "tapHint": "[ Chạm vào điểm đánh dấu để xem phòng ]"
+    },
+    "statement": { "cta": "Xem các phòng" },
+    "clients": {
+      "title": "Đối tác",
+      "prev": "Đối tác trước",
+      "next": "Đối tác tiếp theo"
+    },
+    "problems": {
+      "label": "Vấn đề",
+      "title": ["Thuê một căn phòng", "không nên là một canh bạc"],
+      "body": "Tin cho thuê chỉ có một tấm ảnh và giá thuê. Diện tích, các khoản phí và tốc độ sửa chữa chỉ lộ rõ sau khi bạn dọn vào, mà lúc đó bạn đã ký hợp đồng rồi."
+    },
+    "story": {
+      "aria": "Mọi phòng đều có trên bản vẽ",
+      "panelTitle": ["Chọn phòng,", "xem giá trọn gói,", "tất cả ở một nơi"],
+      "panelBody": "Mọi phòng ở Atrium đều được vẽ đúng tỷ lệ và báo giá trọn gói. Tiền thuê và phí cố định được chốt trước khi bạn đến xem, còn nội thất thì bạn thuê thêm hoặc trả lại theo từng tháng.",
+      "close": "Đóng",
+      "roomNo": "Phòng #{n}",
+      "issueHeading": "{title}, phòng {number}",
+      "priceExtras": "Giá & tiện ích thêm",
+      "shortlist": "Đưa vào danh sách",
+      "intro": "Giới thiệu",
+      "scroll": "[Cuộn để tiếp tục]",
+      "allShortlisted": "[Đã chọn tất cả các phòng]"
+    },
+    "products": {
+      "aria": "Các loại phòng",
+      "rowText": "{first}. Từ {price} mỗi tháng, hiện còn trống {free} phòng.",
+      "perMonth": "/ {per} / tháng",
+      "fixedFees": "+ {amount} phí cố định, đã gồm tất cả",
+      "freeNow": "Còn trống {n}",
+      "seeRoom": "Xem phòng này"
+    },
+    "whyUs": {
+      "label": "Vì sao chọn chúng tôi",
+      "title": ["Thiết kế theo", "cách bạn sống"],
+      "body": "Từ lần đầu xem bản vẽ cho đến ngày trả chìa khóa, mọi bước đều rõ ràng và mọi khoản giá đều được ghi ra giấy. Bạn tự chọn phòng, thời hạn thuê và nội thất.",
+      "scroll": "[Cuộn để tiếp tục]",
+      "callouts": {
+        "letCode": "P.205 · Phòng đơn",
+        "letText": "Đã thuê đến tháng 3",
+        "freeCode": "P.402 · Studio",
+        "freeText": "Đang trống, 4,8 triệu",
+        "viewingCode": "P.305 · Phòng đơn",
+        "viewingText": "Đã hẹn xem, T7 10:00"
+      },
+      "viewing": {
+        "title": "Lịch xem phòng",
+        "booking": "Lịch hẹn #1042",
+        "room": "Phòng đơn, P.305",
+        "when": "Thứ Bảy 10:00 cùng Linh tại quầy lễ tân.",
+        "alsoTitle": "Cùng tầng này",
+        "also": "• P.307, cùng diện tích, trống từ tháng 12"
+      },
+      "documents": ["Hợp đồng thuê", "Biên bản bàn giao", "Chìa khóa & thẻ ra vào"],
+      "signing": "Đang ký…",
+      "monthTitle": "Tháng của bạn",
+      "monthItems": ["• Thuê thêm tủ lạnh, 150.000₫", "• Sửa khóa trong 6 giờ", "• Chuyển sang P.402", "• …"]
+    },
+    "useCases": {
+      "label": "Ai sống ở đây",
+      "title": ["Dành cho", "những người", "sống ở đây"]
+    },
+
+    "about": {
+      "aria": "Về Atrium",
+      "storyAria": "Câu chuyện của chúng tôi",
+      "storyLabel": "Câu chuyện của chúng tôi",
+      "storyTitle": "Vì sao là Atrium?",
+      "mission": "Sứ mệnh của chúng tôi:",
+      "teamAria": "Đội ngũ của chúng tôi",
+      "teamLabel": "Đội ngũ của chúng tôi",
+      "partnersAria": "Đối tác",
+      "partnersLabel": "Đối tác"
+    },
+    "contact": {
+      "aria": "Liên hệ",
+      "leasingOffice": "Văn phòng cho thuê",
+      "generalInquiries": "Thông tin chung",
+      "address": "Địa chỉ"
+    },
+    "form": {
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "message": "Lời nhắn",
+      "interestLegend": "Loại phòng bạn quan tâm",
+      "sent": "Đã gửi lời nhắn",
+      "thanksTitle": "Cảm ơn bạn đã liên hệ!",
+      "thanksBody": "Chúng tôi đã nhận được lời nhắn của bạn, {name}. Đội ngũ cho thuê sẽ trả lời qua {email} trong một ngày làm việc.",
+      "sending": "Đang gửi…",
+      "submit": "Gửi"
+    },
+
+    "roomsHero": {
+      "aria": "Phòng và bảng giá",
+      "label": "Phòng & bảng giá",
+      "title": ["Một căn phòng", "cho mọi túi tiền,", "tất cả dưới", "một mái nhà"],
+      "body": "{types} loại phòng trên {floors} tầng, mỗi phòng đều được vẽ đúng tỷ lệ, ghi rõ tiền thuê và mọi khoản phí hằng tháng. Chỉ thuê thêm nội thất khi bạn cần.",
+      "discover": "Khám phá thêm",
+      "stats": { "free": "Đang trống", "from": "Giá từ", "levels": "Số tầng", "hiddenFees": "Phí ẩn" },
+      "liveAvailability": "{level} · tình trạng trực tiếp",
+      "allLevels": "Tất cả các tầng",
+      "freeThisWeek": "Trống trong tuần này ({n})",
+      "viewAll": "Xem tất cả",
+      "levelArea": "{level} · {area} m²",
+      "view": "Xem →"
+    },
+    "roomTypes": {
+      "aria": "Các loại phòng",
+      "bathroom": "Phòng tắm: {value}",
+      "perMonth": "/ {per} / tháng",
+      "yearlyPrice": "Hợp đồng 12 tháng: {price}",
+      "size": "Diện tích",
+      "sleeps": "Số người ở",
+      "dormSleeps": "1 người mỗi giường, 4 người mỗi phòng",
+      "where": "Vị trí",
+      "freeNow": "Đang trống",
+      "freeOfRooms": "{free} / {total} phòng",
+      "freeOfUnits": "{free} / {total} căn",
+      "photosOf": "Ảnh {name}",
+      "closeViewer": "Đóng chế độ xem ảnh",
+      "prevPhoto": "Ảnh trước",
+      "nextPhoto": "Ảnh tiếp theo",
+      "showPhoto": "Xem ảnh {n}: {caption}",
+      "openPhoto": "Mở ảnh {n}: {caption}",
+      "photos": "Ảnh",
+      "prevPhotos": "Ảnh trước",
+      "morePhotos": "Thêm ảnh",
+      "view": "Xem ↗",
+      "unitPlan": "Mặt bằng căn · 1:50",
+      "typesLabel": "Các loại phòng",
+      "typesCount": "{types} loại · {rooms} phòng",
+      "findIt": "Tìm trong tòa nhà",
+      "compare": "So sánh giá"
+    },
+    "explorer": {
+      "aria": "Tìm phòng trong tòa nhà",
+      "label": "Vị trí",
+      "title": ["Tìm phòng của bạn", "trên từng tầng, trong tòa nhà"],
+      "body": "Cuộn để xem lần lượt từng loại phòng, hoặc chọn một tầng rồi nhấn vào bất kỳ phòng nào. Mỗi phòng đều hiện đúng vị trí thực tế, kèm tình trạng hôm nay.",
+      "scroll": "[Cuộn để tiếp tục]",
+      "status": { "available": "Đang trống", "reserved": "Đã giữ chỗ, có lịch xem", "let": "Đã cho thuê" },
+      "legend": { "available": "Còn trống", "reserved": "Đã giữ chỗ", "let": "Đã cho thuê", "selected": "Loại đang chọn" },
+      "filterAria": "Lọc theo loại phòng",
+      "allRooms": "Tất cả phòng",
+      "pickLevel": "Chọn tầng",
+      "groundLobby": "Trệt · Sảnh",
+      "freeOnLevel": "Tầng này còn trống {n}",
+      "roomAtLevel": "{room} · {level}",
+      "rentPer": "Tiền thuê / {per}",
+      "fixedFees": "Phí cố định",
+      "perMonth": "Mỗi tháng",
+      "waitlist": "Đăng ký chờ phòng",
+      "book": "Đặt lịch xem phòng"
+    },
+    "floorMap": {
+      "status": { "available": "Còn trống", "reserved": "Đã giữ chỗ", "let": "Đã cho thuê" },
+      "stairLift": "CẦU THANG · THANG MÁY",
+      "corridor": "HÀNH LANG — {floor}",
+      "roomAria": "Phòng {id}, {name}, {status}",
+      "planAria": "Mặt bằng {floor}",
+      "stackAria": "Các tầng của tòa nhà"
+    },
+    "roomPlan": {
+      "aria": "Mặt bằng có nội thất, {w} x {d} mét",
+      "labels": {
+        "room": "Phòng",
+        "bath": "Tắm",
+        "studio": "Studio",
+        "beds": "4 giường · 2 giường tầng",
+        "lockers": "Tủ đồ",
+        "mezzanine": "Gác lửng phía trên, +2,4 m",
+        "living": "Sinh hoạt",
+        "balcony": "Ban công",
+        "bedroom1": "Phòng ngủ 1",
+        "bedroom2": "Phòng ngủ 2",
+        "kitchen": "Bếp"
+      }
+    },
+    "priceTable": {
+      "aria": "Bảng giá",
+      "title": ["Một giá thuê, mọi khoản phí", "đều minh bạch"],
+      "body": "Tiền thuê tùy theo loại phòng, không phụ thuộc vào tầng. Phí cố định là khoản trọn gói hằng tháng, nên hóa đơn của bạn tháng nào cũng như nhau. Ký hợp đồng 12 tháng, tiền thuê giảm {pct}%.",
+      "leaseAria": "Thời hạn thuê",
+      "monthly": "Theo tháng",
+      "yearly": "Hợp đồng 12 tháng (tiết kiệm {pct}%)",
+      "yearlyShort": "Hợp đồng 12 tháng",
+      "tableAria": "So sánh các loại phòng",
+      "groups": { "room": "Căn phòng", "fees": "Phí cố định hằng tháng", "furniture": "Nội thất đi kèm", "lease": "Hợp đồng" },
+      "size": "Diện tích",
+      "sleeps": "Số người ở",
+      "dormSleeps": "1 (4 người mỗi phòng)",
+      "levels": "Tầng",
+      "deposit": "Đặt cọc",
+      "depositOne": "{n} tháng tiền thuê",
+      "depositMany": "{n} tháng tiền thuê",
+      "shortestStay": "Thời gian thuê tối thiểu",
+      "included": "Đã bao gồm",
+      "notIncluded": "Không bao gồm",
+      "perMonth": "/ {per} / tháng",
+      "book": "Đặt lịch xem phòng"
+    },
+    "calculator": {
+      "aria": "Chi phí và ước tính hằng tháng",
+      "label": "Chi phí",
+      "title": ["Phí cố định,", "nội thất linh hoạt"],
+      "body": "Năm khoản phí cố định mỗi tháng, dù bạn dùng bao nhiêu. Mọi thứ khác đều tùy chọn: thuê tủ lạnh, tủ quần áo hay máy giặt theo tháng, và trả lại khi không cần nữa.",
+      "roomType": "Loại phòng",
+      "estimateFor": "Ước tính cho",
+      "monthlyLease": "Thuê theo tháng",
+      "yearlyLease": "Hợp đồng 12 tháng",
+      "lease": "Thời hạn thuê",
+      "leaseHint": "Hợp đồng 12 tháng giảm {pct}% tiền thuê",
+      "leaseAria": "Thời hạn thuê",
+      "monthly": "Theo tháng",
+      "twelveMonths": "12 tháng",
+      "people": "Số người",
+      "upTo": "Tối đa {n}",
+      "waterPerPerson": "Tiền nước tính theo người",
+      "motorbikes": "Xe máy",
+      "parkingHint": "Phí gửi xe tính theo xe",
+      "fewer": "Giảm: {label}",
+      "more": "Tăng: {label}",
+      "fixed": "Cố định hằng tháng",
+      "flexible": "Tiện ích thuê thêm",
+      "included": "Đã bao gồm",
+      "perMonth": "{price} / tháng",
+      "rentLine": "Tiền thuê {name}",
+      "youPay": "Bạn trả mỗi tháng",
+      "depositOne": "Đặt cọc ({n} tháng tiền thuê)",
+      "depositMany": "Đặt cọc ({n} tháng tiền thuê)",
+      "due": "Thanh toán khi dọn vào",
+      "book": "Đặt lịch xem phòng",
+      "depositNote": "Tiền cọc được hoàn trả đầy đủ trong vòng 7 ngày sau khi bạn dọn đi, trừ chi phí hư hỏng so với biên bản bàn giao lúc dọn vào."
+    },
+    "steps": {
+      "aria": "Quy trình thuê phòng",
+      "title": "Từ lần xem đầu tiên đến ngày dọn vào, chỉ {n} bước",
+      "body": "Không qua môi giới, không phí xem phòng, không giấy tờ khó hiểu. Hầu hết cư dân dọn vào trong vòng một tuần kể từ lần đầu xem bản vẽ.",
+      "selected": "Đã chọn {room}",
+      "viewing": "Xem phòng T7 10:00",
+      "step": "Bước"
+    },
+    "faq": {
+      "aria": "Câu hỏi thường gặp",
+      "label": "Hỏi đáp",
+      "title": ["Bạn có thắc mắc?", "Chúng tôi có", "câu trả lời"]
+    },
+    "notFound": {
+      "label": "Lỗi / 404",
+      "signal": "● Mất tín hiệu",
+      "notInRegistry": "không có trong danh mục của chúng tôi.",
+      "back": "Về sảnh chính",
+      "allRooms": "Xem tất cả phòng"
+    }
+  },
+
+  "content": {
+    "site": {
+      "brand": {
+        "tagline": "Phòng cho thuê, giá trọn gói",
+        "address": ["12 Đường Example, Phường 6", "Quận 3, TP. Hồ Chí Minh"]
+      },
+      "nav": { "rooms": "Phòng", "pricing": "Giá & phí", "about": "Giới thiệu" },
+      "contactCta": "Liên hệ",
+      "footer": {
+        "tagline": ["Phòng cho thuê,", "giá trọn gói,", "sẵn sàng dọn vào"],
+        "columns": {
+          "company": "Công ty",
+          "rooms": "Phòng",
+          "help": "Hỗ trợ"
+        },
+        "links": {
+          "home": "Trang chủ",
+          "about": "Về chúng tôi",
+          "contact": "Liên hệ",
+          "pricing": "Giá & phí",
+          "explorer": "Tìm phòng",
+          "fees": "Tính chi phí",
+          "faq": "Hỏi đáp",
+          "viewing": "Đặt lịch xem phòng"
+        },
+        "subscribe": { "title": "Đăng ký nhận tin", "text": "Một email khi có phòng trống. Không gì khác." },
+        "legal": ["Chính sách bảo mật", "Điều khoản & điều kiện", "Chính sách cookie"],
+        "copyright": "©2026 Atrium. Bảo lưu mọi quyền."
+      },
+      "cta": {
+        "title": ["Hãy đến xem", "căn phòng của bạn"],
+        "body": "Đặt lịch xem phòng, chúng tôi sẽ dẫn bạn đi xem phòng, cả tầng và giải thích giá trọn gói hằng tháng.",
+        "button": "Đặt lịch xem phòng"
+      },
+      "preloader": {
+        "log": [
+          "Dựng sáu tầng",
+          "Vẽ 48 phòng đúng tỷ lệ",
+          "Trang bị phòng KTX và phòng đơn",
+          "Lắp bếp nhỏ cho studio",
+          "Treo gác lửng cho loft",
+          "Định giá năm loại phòng",
+          "Chốt phí hằng tháng",
+          "Nhập kho nội thất",
+          "Kiểm tra phòng trống",
+          "Mở cửa"
+        ],
+        "meta": [
+          ["Loại hình", "Tòa nhà cho thuê để ở"],
+          ["Khai trương", "2026"],
+          ["Đối tượng", "Phòng cho sinh viên và người đi làm, từ giường ký túc xá đến căn hai phòng ngủ"],
+          ["Vị trí", "Quận 3, TP. Hồ Chí Minh"]
+        ],
+        "welcome": "Chào mừng đến Atrium",
+        "statement": ["Phòng cho thuê,", "vẽ đúng tỷ lệ,", "giá trọn gói,", "sẵn sàng dọn vào"]
+      },
+      "notFound": {
+        "title": ["Không tìm thấy", "phòng"],
+        "text": "Phòng này đã được thuê, đổi số, hoặc chưa từng được xây. Đường dẫn",
+        "log": [
+          ["001", "Tra đường dẫn trong danh mục phòng", "OK"],
+          ["002", "Quét các tầng 1 → 6", "OK"],
+          ["003", "Khớp không gian được yêu cầu", "FAIL"],
+          ["004", "Gợi ý phòng trống gần nhất", "OK"]
+        ]
+      }
+    },
+
+    "home": {
+      "hero": {
+        "title": ["Phòng cho thuê", "hợp với cách bạn sống"],
+        "body": "Atrium là tòa nhà sáu tầng dành cho sinh viên và người đi làm. Từ giường ký túc xá giá {from} mỗi tháng đến căn hai phòng ngủ, mọi khoản phí đều cố định và được công bố trước khi bạn ký.",
+        "ticker": ["Phòng từ {from}", "Phí cố định hằng tháng", "Nội thất theo nhu cầu", "Bảo vệ 24/7", "10 phút đến trường"]
+      },
+      "hotspots": {
+        "h1": { "code": "P.302 · Phòng đơn", "text": "Trống từ 1/11, 3,2 triệu mỗi tháng" },
+        "h2": { "code": "P.402 · Studio", "text": "Có sẵn tủ lạnh, còn hai phòng" },
+        "h3": { "code": "P.103 · KTX", "text": "Còn một giường, 1,6 triệu" }
+      },
+      "statement": "Thuê phòng không nên đi kèm phí phát sinh bất ngờ, hợp đồng mập mờ và chủ nhà không bao giờ nghe máy. Atrium công khai mọi mức giá, sửa chữa nhanh chóng và cho bạn thuê tủ lạnh hay tủ quần áo chỉ khi bạn cần.",
+      "partnersNote": "Sinh viên và nhân viên của các trường đại học và doanh nghiệp đối tác được miễn phí dịch vụ tháng đầu tiên.",
+      "problems": [
+        { "key": "Phí ẩn", "title": ["Phí xuất hiện", "sau khi bạn", "đã ký"], "text": "Tiền nước tính theo đầu người, tiền điện bị đội giá, phí gửi xe không ai nhắc tới. Giá thuê chưa bao giờ là giá thật." },
+        { "key": "Sai lệch", "title": ["Căn phòng không", "giống như", "trong ảnh"], "text": "Ảnh chụp góc rộng, không có bản vẽ, không có số đo. Đến ngày dọn vào bạn mới biết phòng nhỏ cỡ nào." },
+        { "key": "Chậm trễ", "title": ["Sửa chữa", "kéo dài", "hàng tuần"], "text": "Một ổ khóa hỏng hay chiếc máy lạnh chết máy trở thành chuỗi tin nhắn không ai trả lời." },
+        { "key": "Cứng nhắc", "title": ["Trả tiền cho", "nội thất bạn", "không dùng"], "text": "Có nội thất nghĩa là những gì người cũ để lại, đã tính vào tiền thuê dù bạn có muốn hay không." }
+      ],
+      "storyPhrases": ["Mọi phòng đều có trên bản vẽ", "Mọi mức giá đều minh bạch"],
+      "storySteps": [
+        "Hầu hết tin cho thuê chỉ có một tấm ảnh và một con số. Bạn chỉ biết diện tích, độ ồn và chi phí thật hằng tháng sau khi đã dọn vào.",
+        "Chúng tôi vẽ mọi phòng trong tòa nhà đúng tỷ lệ, và chốt mọi khoản phí trước khi bạn xem giá thuê.",
+        "Chọn một phòng trên bản vẽ để xem diện tích, những gì đi kèm và số tiền bạn trả mỗi tháng.",
+        "[Nhấn vào một phòng]"
+      ],
+      "planIssues": {
+        "i1": {
+          "title": "Studio",
+          "room": "P.303",
+          "text": "20 m², giường đôi, bếp nhỏ và phòng tắm riêng. Trống từ ngày 1 tháng 11.",
+          "fix": ["Tiền thuê 4.800.000₫ mỗi tháng", "Phí cố định 800.000₫ mỗi tháng", "Có sẵn tủ lạnh"]
+        },
+        "i2": {
+          "title": "Studio",
+          "room": "P.308",
+          "text": "Hướng ra sân trong nên là studio yên tĩnh nhất tầng. Cách cầu thang hai phòng.",
+          "fix": ["Tiền thuê 4.800.000₫ mỗi tháng", "Thuê thêm máy giặt 200.000₫", "Hợp đồng 12 tháng giảm 10%"]
+        },
+        "i3": {
+          "title": "Phòng đơn",
+          "room": "P.305",
+          "text": "12 m², phòng tắm riêng và bàn làm việc rộng dưới cửa sổ.",
+          "fix": ["Tiền thuê 3.200.000₫ mỗi tháng", "Bếp chung cách hai phòng", "Tủ quần áo từ 80.000₫"]
+        }
+      },
+      "agentPoints": [
+        "Tiền thuê, nước, điện và Wi-Fi trên một hóa đơn.",
+        "Mọi phòng đều được đo và vẽ đúng tỷ lệ.",
+        "Thuê tủ lạnh hay tủ quần áo vào bất kỳ tháng nào.",
+        "Yêu cầu sửa chữa được phản hồi trong 48 giờ."
+      ],
+      "whySteps": [
+        { "key": "Xem", "text": "Xem mọi phòng trên bản vẽ, kèm diện tích và giá trọn gói hằng tháng" },
+        { "key": "Đến xem", "text": "Đặt lịch xem phòng và đi một vòng quanh tầng trước khi quyết định" },
+        { "key": "Dọn vào", "text": "Ký một hợp đồng rõ ràng và nhận chìa khóa ngay trong ngày" },
+        { "key": "Sinh sống", "text": "Thuê thêm nội thất, báo sửa chữa hoặc đổi phòng khi cuộc sống thay đổi" }
+      ],
+      "useCases": [
+        { "title": "Sinh viên", "text": "Giường ký túc xá hoặc phòng đơn cách trường mười phút, phòng nào cũng có bàn học và Wi-Fi nhanh." },
+        { "title": "Người mới đi làm", "text": "Studio có bếp riêng, để bạn nấu ăn sau giờ làm mà vẫn tiết kiệm được mỗi tháng." },
+        { "title": "Người làm theo ca", "text": "Phòng yên tĩnh, có rèm cản sáng và quầy bảo vệ trực suốt đêm." },
+        { "title": "Thực tập sinh", "text": "Hợp đồng từ ba tháng, để kỳ thực tập không buộc bạn phải thuê cả năm." },
+        { "title": "Cặp đôi", "text": "Studio và loft cho hai người, chung một hóa đơn cho cả hai." },
+        { "title": "Bạn bè ở chung", "text": "Căn hai phòng ngủ có phòng riêng khóa được, bếp và phòng khách dùng chung." },
+        { "title": "Người làm việc từ xa", "text": "Loft tầng trên cùng đủ chỗ cho một bàn làm việc thực thụ, cùng góc làm việc chung ở tầng dưới." },
+        { "title": "Mới đến thành phố", "text": "Dọn vào chỉ với một chiếc vali; những gì còn thiếu thì thuê theo từng tháng." }
+      ]
+    },
+
+    "rooms": {
+      "labels": { "level": "Tầng {n}", "levels": "Tầng {from}–{to}" },
+      "featureLabels": {
+        "furnished": "Giường, bàn & ghế",
+        "aircon": "Máy lạnh",
+        "window": "Cửa sổ ra ngoài",
+        "bath": "Phòng tắm riêng",
+        "kitchen": "Bếp nhỏ",
+        "balcony": "Ban công",
+        "mezzanine": "Gác lửng để ngủ"
+      },
+      "tiers": {
+        "dorm": {
+          "name": "Giường ký túc xá",
+          "short": "KTX",
+          "audience": "Sinh viên",
+          "summary": "Một giường tầng trong phòng bốn người, có tủ đồ và bàn học riêng.",
+          "text": "Giá thuê thấp nhất tòa nhà. Bốn cư dân ở chung một phòng sáng sủa với hai giường tầng, phòng tắm khép kín và mỗi người một bàn học. Tủ đồ có khóa và đèn đọc sách là của riêng bạn.",
+          "floors": "Tầng 1–2",
+          "minStay": "3 tháng",
+          "bath": "Khép kín, dùng chung 4 người"
+        },
+        "single": {
+          "name": "Phòng đơn",
+          "short": "Đơn",
+          "audience": "Sinh viên, thực tập sinh",
+          "summary": "Phòng riêng cho một người, có phòng tắm riêng.",
+          "text": "Cửa riêng, chìa khóa riêng. Phòng 12 m² gọn gàng với giường đơn, bàn làm việc rộng dưới cửa sổ và phòng tắm riêng. Bếp chung chỉ cách hai phòng.",
+          "floors": "Tầng 1–6",
+          "minStay": "3 tháng"
+        },
+        "studio": {
+          "name": "Studio",
+          "short": "Studio",
+          "audience": "Người mới đi làm",
+          "summary": "Phòng, bếp nhỏ và phòng tắm: tất cả trong một chìa khóa.",
+          "text": "Không gian để sống, không chỉ để ngủ. Studio 20 m² có giường đôi, bếp nhỏ với bếp hai lò, tủ lạnh và phòng tắm. Thoải mái cho một người, hoặc hai người thân thiết.",
+          "floors": "Tầng 3–5",
+          "minStay": "6 tháng"
+        },
+        "loft": {
+          "name": "Studio gác lửng",
+          "short": "Loft",
+          "audience": "Người làm việc từ xa",
+          "summary": "Studio trần cao gấp đôi, giường đặt trên gác lửng.",
+          "text": "Trần tầng trên cùng cao 4,6 m. Giường đặt trên gác lửng, nhường cả mặt sàn bên dưới cho bàn làm việc, sofa và một gian bếp đúng nghĩa. Mỗi loft có một ban công nhỏ.",
+          "floors": "Tầng 6",
+          "minStay": "6 tháng"
+        },
+        "twobed": {
+          "name": "Căn hai phòng ngủ",
+          "short": "2PN",
+          "audience": "Bạn bè, cặp đôi",
+          "summary": "Hai phòng ngủ quanh phòng khách và bếp dùng chung.",
+          "text": "Hai phòng ngủ có khóa, mở ra phòng khách chung với bếp đầy đủ, phòng tắm và ban công. Thuê cùng một người bạn, mỗi người trả ít hơn so với thuê hai studio.",
+          "floors": "Tầng 5–6",
+          "minStay": "6 tháng"
+        }
+      },
+      "photos": {
+        "dorm": [
+          { "caption": "Giường tầng cạnh cửa sổ", "alt": "căn phòng có nhiều giường tầng cạnh cửa sổ" },
+          { "caption": "Giường của bạn", "alt": "giường tầng khung kim loại màu đen" },
+          { "caption": "Góc học tập", "alt": "bàn có quả địa cầu, chậu cây và hai chiếc ghế đẩu" },
+          { "caption": "Giường tầng gỗ", "alt": "giường tầng bằng gỗ màu nâu" },
+          { "caption": "Hai giường cạnh cửa sổ", "alt": "bộ chăn ga họa tiết hoa màu trắng xám" },
+          { "caption": "Giường tầng có rèm che", "alt": "nệm màu trắng" },
+          { "caption": "Bàn học chung", "alt": "chiếc ghế trống" },
+          { "caption": "Bàn học", "alt": "căn phòng bừa bộn có bàn, ghế và hành lý" },
+          { "caption": "Bàn và giường", "alt": "bàn gỗ trắng cạnh giường trong phòng" },
+          { "caption": "Bàn cạnh cửa sổ", "alt": "ghế gỗ nâu cạnh tấm nệm" }
+        ],
+        "single": [
+          { "caption": "Giường đơn và bàn", "alt": "gối trắng trên giường" },
+          { "caption": "Bàn dưới cửa sổ", "alt": "phòng ngủ hiện đại có bàn, giường và hướng nhìn thành phố" },
+          { "caption": "Phòng tắm riêng", "alt": "phòng tắm có bồn cầu, bồn rửa và vòi sen" },
+          { "caption": "Giường dưới cửa sổ", "alt": "phòng ngủ hiện đại ấm cúng với giường đơn, cửa sổ và đồ trang trí màu xanh" },
+          { "caption": "Góc đọc sách", "alt": "phòng ngủ ấm cúng có giường đơn và cửa sổ nhìn ra ngoài" },
+          { "caption": "Tủ âm tường", "alt": "phòng ngủ hiện đại có giường, tủ quần áo trắng và cửa sổ" },
+          { "caption": "Bàn và kệ", "alt": "căn phòng sáng sủa có bàn, ghế hồng và rèm cửa sổ" },
+          { "caption": "Phòng đơn áp mái", "alt": "phòng ngủ áp mái có giường và cửa sổ" },
+          { "caption": "Bàn làm việc", "alt": "phòng ngủ hiện đại có bàn làm việc và hướng nhìn thành phố" },
+          { "caption": "Bàn và giường", "alt": "phòng ngủ sáng sủa có bàn làm việc và giường lớn" }
+        ],
+        "studio": [
+          { "caption": "Giường, bàn và bếp nhỏ", "alt": "căn phòng có giường và chiếc bàn đặt một cái bát" },
+          { "caption": "Bếp nhỏ có tủ lạnh", "alt": "bếp nhỏ tủ màu xanh lá nhạt và giường trong căn studio" },
+          { "caption": "Phòng tắm", "alt": "phòng tắm có bồn cầu, bồn rửa và vòi sen" },
+          { "caption": "Bếp nhỏ và bàn ăn", "alt": "căn phòng có bàn, ghế và tivi" },
+          { "caption": "Cửa sổ kiểu Pháp", "alt": "phòng kiểu khách sạn có giường lớn và cửa sổ" },
+          { "caption": "Bếp nhỏ cạnh giường", "alt": "gian bếp có bàn và ghế" },
+          { "caption": "Giường cạnh cửa sổ", "alt": "ga giường trắng trên giường" },
+          { "caption": "Hướng nhìn từ ban công", "alt": "bếp và khu ăn uống hiện đại nhìn ra mặt nước" },
+          { "caption": "Khu tiếp khách", "alt": "không gian sống hiện đại với cửa sổ lớn nhìn ra thiên nhiên" },
+          { "caption": "Bếp và máy giặt", "alt": "bếp hiện đại có bồn rửa, bếp nấu và máy giặt" }
+        ],
+        "loft": [
+          { "caption": "Tầng sinh hoạt, gác lửng phía trên", "alt": "mọi người làm việc trong căn loft rộng có bàn lớn" },
+          { "caption": "Bếp và bàn ăn", "alt": "căn hộ loft không gian mở hiện đại có khu ăn uống và bếp" },
+          { "caption": "Phòng khách", "alt": "phòng khách hiện đại có sofa xanh lá và tường gạch" },
+          { "caption": "Sinh hoạt trong loft", "alt": "căn loft công nghiệp rộng có sofa da đen, khu ăn uống và gác lửng" },
+          { "caption": "Bàn ăn dưới xà nhà", "alt": "bàn gỗ nâu và ghế" },
+          { "caption": "Cầu thang lên gác lửng", "alt": "cầu thang hiện đại có lan can kim loại" },
+          { "caption": "Giường trên gác lửng", "alt": "chiếc giường trong phòng ngủ cạnh tủ quần áo" },
+          { "caption": "Cây xanh và ánh đèn thành phố", "alt": "phòng khách nhiều đồ nội thất và nhiều cửa sổ" },
+          { "caption": "Phòng khách", "alt": "bộ sofa góc màu trắng đen" },
+          { "caption": "Giếng trời chung", "alt": "chậu cây lớn trong căn phòng rộng có nhiều cửa sổ" }
+        ],
+        "twobed": [
+          { "caption": "Phòng khách chung", "alt": "phòng khách hiện đại, phong cách với bếp mở" },
+          { "caption": "Bếp có máy giặt", "alt": "bếp hiện đại có tủ lạnh inox và máy giặt" },
+          { "caption": "Phòng ngủ", "alt": "phòng ngủ hiện đại có giường, bàn và gương" },
+          { "caption": "Phòng khách và ban công", "alt": "bộ bàn ghế phòng khách màu trắng và nâu" },
+          { "caption": "Ghế đọc sách", "alt": "ghế sofa trắng xám cạnh bức tường trắng" },
+          { "caption": "Phòng khách", "alt": "bàn tròn gỗ nâu cạnh sofa trắng" },
+          { "caption": "Phòng ngủ thứ hai", "alt": "gối trắng trên khung giường gỗ nâu" },
+          { "caption": "Bếp có máy giặt", "alt": "máy giặt cửa trước màu trắng" },
+          { "caption": "Phòng tắm", "alt": "bồn rửa chữ nhật màu nâu và trắng" },
+          { "caption": "Góc học tập", "alt": "góc làm việc ngập nắng có bàn, máy tính và sofa trong phòng khách" }
+        ]
+      },
+      "fixedFees": {
+        "water": { "name": "Nước", "unit": "/ người", "note": "Nước nóng và lạnh, không giới hạn." },
+        "power": { "name": "Điện", "unit": "/ tháng", "note": "Trọn gói theo diện tích phòng, đã gồm máy lạnh." },
+        "wifi": { "name": "Wi-Fi", "unit": "/ tháng", "note": "Cáp quang 300 Mbps, mỗi phòng một bộ phát." },
+        "service": { "name": "Dịch vụ & vệ sinh", "unit": "/ tháng", "note": "Khu vực chung, rác, quầy bảo vệ 24/7." },
+        "parking": { "name": "Gửi xe máy", "unit": "/ xe", "note": "Có mái che, camera giám sát, chỉ tính phí khi bạn có xe." }
+      },
+      "addons": {
+        "fridge": { "name": "Tủ lạnh", "note": "120 L, có ngăn đá" },
+        "wardrobe": { "name": "Tủ quần áo", "note": "Hai cánh, có gương" },
+        "washer": { "name": "Máy giặt", "note": "7 kg, đặt trong phòng" },
+        "microwave": { "name": "Lò vi sóng", "note": "20 L, có nướng" },
+        "desk": { "name": "Bàn ghế làm việc thêm", "note": "Cho người ở ghép" },
+        "purifier": { "name": "Máy lọc không khí", "note": "Màng lọc HEPA, chế độ êm" },
+        "tv": { "name": "Smart TV", "note": "43 inch, có ứng dụng xem phim" },
+        "mattress": { "name": "Nệm topper", "note": "Mút hoạt tính" }
+      },
+      "ground": { "name": "Tầng trệt", "text": "Sảnh & lễ tân 24/7 · Bãi xe · Giặt ủi · Cà phê" },
+      "steps": [
+        { "title": "Chọn", "subtitle": "phòng trên bản vẽ", "text": "So sánh năm loại phòng, xem vị trí từng phòng và biết giá trọn gói hằng tháng trước khi đến xem." },
+        { "title": "Đến xem", "subtitle": "cùng đội ngũ cho thuê", "text": "Đặt lịch xem phòng 20 phút. Đi một vòng quanh tầng, mở cửa sổ và hỏi bất cứ điều gì về hợp đồng." },
+        { "title": "Dọn vào", "subtitle": "ngay trong ngày", "text": "Ký một hợp đồng dễ hiểu, thanh toán tiền cọc và tháng đầu tiên, rồi mang chìa khóa về nhà." }
+      ],
+      "faqs": [
+        { "q": "Phí cố định có thật sự cố định không?", "a": "Có. Nước, điện, Wi-Fi, dịch vụ và gửi xe là các khoản trọn gói hằng tháng theo loại phòng. Chúng không thay đổi theo mức sử dụng và chỉ có thể tăng mỗi năm một lần, kèm thông báo trước 60 ngày." },
+        { "q": "Xem phòng có mất phí không?", "a": "Không. Xem phòng hoàn toàn miễn phí, mất khoảng 20 phút, và bạn có thể đặt lịch xem bất kỳ phòng nào đang trống hoặc đã được giữ chỗ." },
+        { "q": "Tôi có thể thuê thêm nội thất sau, hoặc trả lại không?", "a": "Bất cứ lúc nào. Thuê thêm tủ lạnh, tủ quần áo hay máy giặt tại quầy lễ tân hoặc trên ứng dụng cư dân, đồ sẽ có trong phòng ngay trong ngày. Báo trước một tuần để trả lại, khoản đó sẽ được trừ khỏi hóa đơn kế tiếp." },
+        { "q": "Tôi có thể đổi sang phòng khác không?", "a": "Có. Đổi phòng trong Atrium hoàn toàn miễn phí; hợp đồng được giữ nguyên và tiền cọc chuyển theo bạn. Bạn trả tiền thuê phòng mới kể từ ngày chuyển." },
+        { "q": "Ai có thể thuê phòng ở Atrium?", "a": "Bất kỳ ai trên 18 tuổi có giấy tờ tùy thân. Phần lớn cư dân là sinh viên và người mới đi làm. Sinh viên và nhân viên của các trường và doanh nghiệp đối tác được miễn phí dịch vụ tháng đầu tiên." },
+        { "q": "Tiền cọc của tôi được xử lý thế nào?", "a": "Tiền cọc được hoàn trả đầy đủ trong vòng 7 ngày sau khi bạn dọn đi, trừ chi phí hư hỏng không có trong biên bản bàn giao lúc dọn vào." }
+      ]
+    },
+
+    "about": {
+      "left": "Mệt mỏi vì phí ẩn?",
+      "right": "Chúng tôi có giải pháp",
+      "title": ["Chúng tôi là người đi thuê", "xây nên ngôi nhà", "mà mình hằng muốn thuê"],
+      "body": "Atrium giúp việc thuê phòng không còn là chuyện đoán mò: mọi phòng đều được vẽ đúng tỷ lệ, mọi khoản phí được chốt trước khi ký, và nội thất chỉ thuê khi bạn cần. Được xây dựng bởi những người đã quá mệt mỏi vì chỉ biết giá thật vào ngày dọn vào.",
+      "storyLead": "Atrium là khoảng sân trong ở trung tâm một tòa nhà: không gian mọi người đều đi qua, nơi ánh sáng tràn vào. Đó là cách chúng tôi muốn vận hành tòa nhà của mình. Không có gì bị giấu trong văn phòng phía sau, mọi mức giá đều công khai, và quầy lễ tân luôn thật sự trả lời.",
+      "story": "Atrium do hai người bạn sáng lập: họ đã cùng thuê mười một căn phòng mà chưa lần nào biết trước chi phí thật hằng tháng trước khi dọn vào. Phí xuất hiện sau khi ký, ảnh chụp tô vẽ căn phòng, còn sửa chữa thì kéo dài hàng tuần. Vì vậy năm 2024, họ mua lại một tòa văn phòng bỏ trống ở Quận 3 và cải tạo thành nơi mà họ ước mình đã từng được thuê.",
+      "mission": [
+        "Đưa mọi phòng lên bản vẽ, đúng tỷ lệ",
+        "Công bố mọi khoản phí trước khi ký",
+        "Sửa chữa mọi hư hỏng trong 48 giờ",
+        "Cho cư dân chỉ thuê nội thất họ cần"
+      ],
+      "teamTitle": ["Xây bởi người đi thuê,", "vận hành bởi hàng xóm"],
+      "teamBody": "Chúng tôi là một đội ngũ nhỏ với nền tảng kiến trúc, quản lý bất động sản và dịch vụ lưu trú. Điểm chung của chúng tôi: ai cũng từng là người đi thuê, và chúng tôi tin rằng thuê một căn phòng nên rõ ràng như đặt phòng khách sạn.",
+      "teamRoles": [
+        "Đồng sáng lập & vận hành",
+        "Đồng sáng lập & tòa nhà",
+        "Trải nghiệm cư dân",
+        "Trưởng bộ phận bảo trì",
+        "Trưởng nhóm cho thuê",
+        "Lễ tân ca đêm"
+      ],
+      "partnersTitle": ["Trường đại học &", "đối tác gần", "Atrium"],
+      "partnersLabel": "Cư dân được ưu đãi cùng:"
+    },
+
+    "contact": {
+      "title": "Liên hệ với chúng tôi",
+      "body": ["Bạn muốn xem phòng, hỏi về chi phí hay đăng ký chờ phòng?", "Hãy nhắn cho chúng tôi, đội ngũ cho thuê sẽ trả lời trong một ngày làm việc."],
+      "formTitle": "Vui lòng điền vào biểu mẫu",
+      "interestLabel": "Quan tâm đến (không bắt buộc)"
+    }
+  }
+}
